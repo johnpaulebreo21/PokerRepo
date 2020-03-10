@@ -38,7 +38,9 @@ Pass a collection of players with their own set of cards to determine which is/a
 
 ### Note:
 * Kindly Clean and Rebuild the whole solution on your first run. 
+* The main method would be Poker.PlayPoker()
  
 ##### Developer 
 John Paul G. Ebreo\
-Software Engineer
+Software Engineer\
+johnpaulebreo21@yahoo.com
