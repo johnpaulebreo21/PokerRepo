@@ -13,8 +13,7 @@ namespace PokerLibrary
         StraightFlush = 4,
         FourofaKind = 3,
         FullHouse = 2,
-        Flush = 1
-
+        Flush = 1 
     }
  
 }

@@ -11,9 +11,7 @@ namespace PokerLibrary
         public char Suit { get; set; }
         public override string ToString()
         {
-            return Number + Suit + ", ";
-
-
+            return Number + Suit + ", "; 
         }
     }
 }

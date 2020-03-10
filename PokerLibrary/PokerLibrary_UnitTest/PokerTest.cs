@@ -1,16 +1,15 @@
 ﻿using PokerLibrary;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System; 
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
- 
+
 
 namespace PokerLibrary_UnitTest
 {
-    
-    
+
     /// <summary>
     ///This is a test class for Class1Test and is intended
     ///to contain all Class1Test Unit Tests
@@ -18,8 +17,6 @@ namespace PokerLibrary_UnitTest
     [TestClass()]
     public class PokerTest
     {
-
-
         private TestContext testContextInstance;
 
         /// <summary>
@@ -71,16 +68,15 @@ namespace PokerLibrary_UnitTest
 
 
         [TestMethod()]
-        public void LetsPlay() {
+        public void LetsPlay()
+        {
 
             var cards1 = new Card[]{
-              new Card(){ Number = "A",Suit = 'D' },
+                new Card(){ Number = "A",Suit = 'D' },
                 new Card(){ Number = "K",Suit = 'D' },
                 new Card(){ Number = "Q",Suit = 'D' },
                 new Card(){ Number = "J",Suit = 'D' },
-                new Card(){ Number = "10",Suit = 'D' }
-
-            
+                new Card(){ Number = "10",Suit = 'D' } 
             };
             var Player1 = new Player()
             {
@@ -94,8 +90,7 @@ namespace PokerLibrary_UnitTest
                 new Card(){ Number = "7",Suit = 'C' },
                 new Card(){ Number = "6",Suit = 'C' },
                 new Card(){ Number = "5",Suit = 'C' },
-                new Card(){ Number = "4",Suit = 'C' }
-
+                new Card(){ Number = "4",Suit = 'C' } 
             };
             var Player2 = new Player()
             {
@@ -108,9 +103,7 @@ namespace PokerLibrary_UnitTest
                 new Card(){ Number = "J",Suit = 'D' },
                 new Card(){ Number = "J",Suit = 'S' },
                 new Card(){ Number = "J",Suit = 'C' },
-                new Card(){ Number = "7",Suit = 'D' }
-
-            
+                new Card(){ Number = "7",Suit = 'D' } 
             };
             var Player3 = new Player()
             {
@@ -123,8 +116,7 @@ namespace PokerLibrary_UnitTest
                 new Card(){ Number = "10",Suit = 'D' },
                 new Card(){ Number = "10",Suit = 'S' },
                 new Card(){ Number = "9",Suit = 'C' },
-                new Card(){ Number = "9",Suit = 'D' }
-            
+                new Card(){ Number = "9",Suit = 'D' } 
             };
             var Player4 = new Player()
             {
@@ -137,8 +129,7 @@ namespace PokerLibrary_UnitTest
                 new Card(){ Number = "J",Suit = 'S' },
                 new Card(){ Number = "8",Suit = 'S' },
                 new Card(){ Number = "2",Suit = 'S' },
-                new Card(){ Number = "9",Suit = 'S' }
-            
+                new Card(){ Number = "9",Suit = 'S' } 
             };
             var Player5 = new Player()
             {
@@ -159,9 +150,5 @@ namespace PokerLibrary_UnitTest
 
         }
 
-       
-
-        
-        
     }
 }

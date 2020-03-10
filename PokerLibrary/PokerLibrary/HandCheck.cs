@@ -7,6 +7,7 @@ namespace PokerLibrary
 {
     public static class HandCheck
     {
+        #region Fields and Helpers
         private static Dictionary<string, int> _dictionaryLowA = new Dictionary<string, int>() { 
         {"A",1}, 
         {"2",2},
@@ -78,8 +79,10 @@ namespace PokerLibrary
             return orderedNums;
 
         }
+        #endregion
 
-        // list of cardChecks
+        //Checks the Poker Hand Rank of each set of Cards
+
         public static bool isRoyalFlush(Card[] cards)
         {
             if (!isSameSuit(cards))
@@ -95,8 +98,7 @@ namespace PokerLibrary
                 if (!tempRoyalFlush[x].Equals(tempNumbers[x]))
                     return false;
 
-            return true;
-
+            return true; 
 
         }
 

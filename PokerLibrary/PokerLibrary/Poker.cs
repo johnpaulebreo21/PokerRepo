@@ -12,7 +12,7 @@ namespace PokerLibrary
 
         public string PlayPoker(List<Player> players)
         {
-
+            //Check each player's Poker Hand Rank
             var playerCtr = 0;
             var tempPlayers = new List<Player>();
             foreach (Player player in players)
@@ -22,15 +22,16 @@ namespace PokerLibrary
                 playerCtr++;
             }
 
+            //Determine highest Poker Hand Rank
             var ranks = tempPlayers.OrderByDescending(p => p.Rank).Take(1).Select(p => p.Rank);
             enumCardRank highestRank = enumCardRank.noRank;
             foreach (var rank in ranks)
                 highestRank = rank;
 
+ 
+            //Determine who is/are the winners
             if (highestRank == enumCardRank.noRank)
                 return "No Winners";
-
-
             var finalWinners = PickWinners(highestRank, tempPlayers);
             var strWinner = "";
             foreach (var Winner in finalWinners)
@@ -40,14 +41,14 @@ namespace PokerLibrary
                     strWinner += cards.ToString();
 
                 strWinner += "(" + highestRank + ")" + Environment.NewLine;
-            }
-
+            } 
             return strWinner.Replace(", (", " (");
  
         }
 
         private IEnumerable<Player> PickWinners(enumCardRank highestRank, IEnumerable<Player> tempPlayers)
         {
+            //Pick the Winner(s) basing from the Highest Card (Multiple or Single Winner)
             var winners = tempPlayers.Where(p => p.Rank.Equals(highestRank));
             var topWinners = new List<Player>();
 
@@ -103,7 +104,7 @@ namespace PokerLibrary
 
         private Player CheckCards(Player player)
         {
-
+            //Determine the Player's Poker Hand Rank
             ISpecialCases specialCase;
 
             if (HandCheck.isRoyalFlush(player.Cards))
