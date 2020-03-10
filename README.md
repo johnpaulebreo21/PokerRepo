@@ -5,10 +5,10 @@ This is a code to determine which player or players win in a game of Poker.
 #### Input:
     Collection of Players with PlayerName and Hand of Cards
 #### Output:
-    String of PlayerName with Hand of Cards and Winning Hand Rank
+    String of PlayerName(s) with Hand of Cards and Winning Hand Rank
 
 ## Givens:
-* Card Numbers: A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K
+* Card Numbers: A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K (A can either be highest or lowest)
 * Card Suits: H – Hearts, S – Spades, C – Clubs, D – Diamonds 
  
 ## Assumptions:
@@ -22,7 +22,7 @@ This is a code to determine which player or players win in a game of Poker.
 * Full House
 * Flush
 4. If winning players have identical hand regardless of suits, all of the winning players win. (Multiple Winners)
-5. If winning players have the same Poker Hand, the one with the Highest Card wins regardless of suits (One Winner)
+5. If winning players have the same Poker Hand Rank but differs in Card Number, the one with the Highest Card wins regardless of suits. (One Winner)
 
 ## How to Use (Unit Test)
 1. PerHandTest\
