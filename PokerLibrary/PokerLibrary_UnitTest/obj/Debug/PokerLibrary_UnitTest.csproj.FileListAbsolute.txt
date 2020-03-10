@@ -1,0 +1,7 @@
+C:\Users\JOHN PAUL\Desktop\PlayNGo\PokerLibrary_VS2010\PokerLibrary\PokerLibrary_UnitTest\bin\Debug\PokerLibrary_UnitTest.dll
+C:\Users\JOHN PAUL\Desktop\PlayNGo\PokerLibrary_VS2010\PokerLibrary\PokerLibrary_UnitTest\bin\Debug\PokerLibrary_UnitTest.pdb
+C:\Users\JOHN PAUL\Desktop\PlayNGo\PokerLibrary_VS2010\PokerLibrary\PokerLibrary_UnitTest\bin\Debug\PokerLibrary.dll
+C:\Users\JOHN PAUL\Desktop\PlayNGo\PokerLibrary_VS2010\PokerLibrary\PokerLibrary_UnitTest\bin\Debug\PokerLibrary.pdb
+C:\Users\JOHN PAUL\Desktop\PlayNGo\PokerLibrary_VS2010\PokerLibrary\PokerLibrary_UnitTest\obj\Debug\PokerLibrary_UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\JOHN PAUL\Desktop\PlayNGo\PokerLibrary_VS2010\PokerLibrary\PokerLibrary_UnitTest\obj\Debug\PokerLibrary_UnitTest.dll
+C:\Users\JOHN PAUL\Desktop\PlayNGo\PokerLibrary_VS2010\PokerLibrary\PokerLibrary_UnitTest\obj\Debug\PokerLibrary_UnitTest.pdb
