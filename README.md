@@ -33,9 +33,11 @@ Set of cards are evaluated to determine rank.
 * FullHouse()
 * Flush()
 2. PokerTest\
-Pass a collection of players with their own set of cards to determine which is the winner.
+Pass a collection of players with their own set of cards to determine which is/are the winners.
 * LetsPlay()
 
+### Note:
+* Kindly Clean and Rebuild the whole solution on your first run. 
  
 ##### Developer 
 John Paul G. Ebreo\
